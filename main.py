@@ -5,7 +5,7 @@ import random
 import torch.nn as nn
 import torch.optim as optim
 
-SEED = 1234
+SEED = 14
 
 torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
